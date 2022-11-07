@@ -1,0 +1,66 @@
+body{
+	background-color: wheat;
+	font-family: 'Lucida', Verdana, sans-serif;
+}
+
+#header{
+	background-color: burlywood;
+	text-align: center;
+	padding: 5px
+}
+
+#header h1{
+	color: blue;
+}
+
+#header blockquote{
+	background-color: yellow;
+	border : 1px dotted black;
+	padding: 10px;
+}
+
+.menu ul{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	gap : 10px;
+}
+
+.b{
+	color: blue;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.gambar{
+	text-align: center;
+}
+
+.gambar img{
+	widh:30%;
+}
+
+.koleksi{
+	text-align: center;
+}
+
+.koleksi img{
+	width: 20%;
+}
+
+.promo{
+	text-align: center;
+	color: red;
+}
+
+.promo h3{
+	background-color: coral;
+	text-align: center;
+	border: 1px dotted red;
+	font-weight: bold;
+	color: red;
+	margin: 0 auto;
+}
+
+
+
