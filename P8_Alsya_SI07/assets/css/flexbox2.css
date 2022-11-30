@@ -1,21 +1,28 @@
-*{
-    box-sizing: border-box;
-}
-
 body{
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     margin: 0;
+    padding: 20px;
+    background-color: rgb(130, 80, 178);
 }
 
-header, footer{
-    height: 20vh;
-    background: khaki;
+header{
+    background:  rgb(188, 140, 172);
+    height: 10vh;
+    padding: 20px;
 }
 
-header, footer, article, nav, aside{
-    padding: 1em;
+footer{
+    background-color: rgb(188, 140, 172);
+    height: 10vh;
+    padding: 20px;
+}
+
+header, footer, article, aside{
+    padding: 2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #main{
@@ -23,22 +30,35 @@ header, footer, article, nav, aside{
     flex: 1;
 }
 
-#main > article{
+#main article{
+    background-color: rgb(249, 205, 250);
+    display: flex;
     flex: 1;
-    order: 1;
+    order: 2;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 10px 1px 10px 5px;
 }
 
-#main > nav,
-#main  aside{
-    flex: 0 0 20vw;
-}
-
-#main > nav{
-    background-color: #03DAC5;
-    order: 3;
+#main aside{
+    flex: 0 0 30vw;
+    margin-right: 40px;
 }
 
 #main > aside{
-    background-color: pink;
-    order: 2;
+    background-color: rgb(144, 105, 171);
+}
+
+.img{
+     display: flex;
+}
+
+img{
+    text-align: center;
+    flex-direction: row;
+    margin: 1em;
+    padding-top: 200px;
+    width: 240px;
+    height: 200px;
 }

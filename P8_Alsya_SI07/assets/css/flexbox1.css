@@ -1,25 +1,52 @@
 body{
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    border: 1px solid;
     margin: 0;
-    padding: 0;
-}
-
-.logo{
-    width: 5rem;
+    font-weight: 700;
+    font-size: x-large;
 }
 
 nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem;
-    background-color: aquamarine;
+    background-color: pink;
+    flex: 1;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    height: 42rem;
+    width: 15rem;
 }
 
-nav ul{
-    list-style: none;
-    display: flex;
-    align-items: center;
+header{
+    background-color: khaki;
+    padding: 1rem;
+    width: 65rem;
+    height: 6rem;
 }
 
-nav ul li{
-    margin: 0 1rem;
+main{
+    display: flex;
+}
+
+main article{
+    background-color: white;
+    flex: 8px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+main aside{
+    background-color: aqua;
+    flex: 3px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 15rem;
+    height: 26rem;
+}
+
+footer{
+    background-color: khaki;
+    padding: 1rem;
+    width: 65rem;
+    height: 6rem;
 }
