@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(130, 80, 178);
+}
+
+header{
+    background:  rgb(188, 140, 172);
+    height: 10vh;
+    padding: 20px;
+}
+
+footer{
+    background-color: rgb(188, 140, 172);
+    height: 10vh;
+    padding: 20px;
+}
+
+header, footer, article, aside{
+    padding: 2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#main{
+    display: flex;
+    flex: 1;
+}
+
+#main article{
+    background-color: rgb(249, 205, 250);
+    display: flex;
+    flex: 1;
+    order: 2;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 10px 1px 10px 5px;
+}
+
+#main aside{
+    flex: 0 0 30vw;
+    margin-right: 40px;
+}
+
+#main > aside{
+    background-color: rgb(144, 105, 171);
+}
+
+.img{
+     display: flex;
+}
+
+img{
+    text-align: center;
+    flex-direction: row;
+    margin: 1em;
+    padding-top: 200px;
+    width: 240px;
+    height: 200px;
+}

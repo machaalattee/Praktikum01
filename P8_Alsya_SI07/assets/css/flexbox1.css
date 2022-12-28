@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    border: 1px solid;
+    margin: 0;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+nav{
+    background-color: pink;
+    flex: 1;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    height: 42rem;
+    width: 15rem;
+}
+
+header{
+    background-color: khaki;
+    padding: 1rem;
+    width: 65rem;
+    height: 6rem;
+}
+
+main{
+    display: flex;
+}
+
+main article{
+    background-color: white;
+    flex: 8px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+main aside{
+    background-color: aqua;
+    flex: 3px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    width: 15rem;
+    height: 26rem;
+}
+
+footer{
+    background-color: khaki;
+    padding: 1rem;
+    width: 65rem;
+    height: 6rem;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 9.4</title>
+</head>
+<body>
+    <h2>Menghitung Jumlah Dua Bilangan</h2>
+
+    <input type="text" id="nilai_pertama">
+    <h3> + </h3>
+    <input type="text" id="nilai_kedua" onchange="tampil()">
+    <h3> = </h3>
+    <input type="text" id="hasil">
+
+    <script>
+        function tampil() {
+            penampung = parseInt(nilai_pertama.value) + parseInt(nilai_kedua.value)
+            hasil.value = penampung
+
+        }
+    </script>
+</body>
+</html>
